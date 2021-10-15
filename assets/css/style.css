@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+}
+
+.container {
+  height: 700px;
+  display: flex;
+  justify-content: space-between;
+}
+.azul {
+  width: 200px;
+  height: 200px;
+  background-color: #4144ec;
+  border-radius: 50%;
+}
+.rojo {
+  width: 200px;
+  height: 200px;
+  background-color: #ec4141;
+  transform: rotate(45deg);
+  margin: 5px;
+  
+}
+.verde {
+  width: 0;
+  height: 0;
+  border-right: 100px solid transparent;
+  border-top: 100px solid transparent;
+  border-left: 100px solid #6ef04e;
+  border-bottom: 100px solid #6ef04e;
+}
